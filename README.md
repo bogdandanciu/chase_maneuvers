@@ -1,6 +1,7 @@
 # chase_maneuvers
 
 Chase maneuvers or intercept trajectories are those that answer the question, "How do you get from point A to point B in space in a given amount of time?" The most common solution to this type of maneuver is found using Lambert's problem. For this purpose, two spacecraft, initially in two non-coplanar geocentric elliptical orbits, are supposed to rendezvous after a given time. One of the spacecraft engages on a chase maneuver to intercept the second spacecraft. The intercept trajectory is determined as a bi-impulsive orbital transfer from one of the orbits to the other. Although effects from the oblateness of the Earth, atmospheric drag, solar radiation pressure, and third-body gravitation would perturb the actual trajectory of the spacecraft, they are neglected for this analysis. The only force acting on the spacecraft is the gravitational pull of the Earth.
+
 The software allows the user to define the orbits and initial positions of the spacecraft, as well as the desired time after which the rendezvous should take place, it then displays in the console the orbital elements of the transfer and initial orbits, as well as the delta-V required to complete the mission.
 
 [![View Chase maneuvers using Lambert’s problem on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://ch.mathworks.com/matlabcentral/fileexchange/66212-chase-maneuvers-using-lambert-s-problem)
